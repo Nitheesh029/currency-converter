@@ -74,6 +74,30 @@ const App = () => {
           </button>
         </div>
       </div>
+      <div className="fixed w-full bottom-0 bg-gradient-to-r from-blue-700 to-blue-500 py-4 text-center text-white shadow-lg">
+        <div className="container mx-auto px-4">
+          <div className="flex flex-col md:flex-row justify-between items-center">
+            <div className="mb-2 md:mb-0">
+              <span className="font-semibold">Currency Converter</span> &copy;{" "}
+              {new Date().getFullYear()}
+            </div>
+            <div className="flex items-center space-x-4">
+              <a href="#" className="hover:text-blue-200 transition-colors">
+                About
+              </a>
+              <a href="#" className="hover:text-blue-200 transition-colors">
+                Privacy
+              </a>
+              <a href="#" className="hover:text-blue-200 transition-colors">
+                Contact
+              </a>
+            </div>
+            <div className="mt-2 md:mt-0">
+              Created by <span className="font-bold">Nitheesh</span>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
